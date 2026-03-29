@@ -26,7 +26,7 @@ inputTexto.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
     if (inputTexto.value.trim() !== "") {
       const p = document.createElement("p");
-      p.textContent = inputTexto.value;
+      p.textContent = inputTexto.value.trim();
       paragrafosDiv.appendChild(p);
 
       inputTexto.value = "";
