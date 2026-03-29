@@ -57,7 +57,7 @@ atividade-dom/
 1. Clonar o repositório:
 
 ```
-git clone https://github.com/SEU-USUARIO/atividade-dom.git
+git clone https://github.com/albertoholanda1/atividade-dom.git
 ```
 
 2. Acessar a pasta do projeto:
