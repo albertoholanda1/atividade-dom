@@ -29,7 +29,7 @@ inputTexto.addEventListener("keypress", (e) => {
       p.textContent = inputTexto.value.trim();
       paragrafosDiv.appendChild(p);
 
-      inputTexto.value = "";
+      inputTexto.focus();
       atualizarContador();
     }
   }
